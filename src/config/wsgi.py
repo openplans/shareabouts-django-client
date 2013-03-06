@@ -1,5 +1,5 @@
 """
-WSGI config for project project.
+WSGI config for project shareabouts_client.
 
 This module contains the WSGI application used by Django's development server
 and any production WSGI deployments. It should expose a module-level variable
@@ -19,7 +19,7 @@ import sys
 projectdir = os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 sys.path.insert(0, projectdir)
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
 
 # This application object is used by any WSGI server configured to use this
 # file. This includes Django's development server, if the WSGI_APPLICATION

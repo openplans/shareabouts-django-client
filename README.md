@@ -7,7 +7,7 @@ application built on the [Shareabouts API](https://github.com/openplans/shareabo
 Quick Start
 -----------
 
-1. In *src/project/*, copy *local_settings.py.template* to *local_settings.py*
+1. In *src/config/*, copy *local_settings.py.template* to *local_settings.py*
 2. Set your dataset root and api key in the local_settings.py file
 3. Place your *index.html* in *shareabouts_client/templates/* folder
 4. Place your static files in the *shareabouts_client/static/* folder; refer to 

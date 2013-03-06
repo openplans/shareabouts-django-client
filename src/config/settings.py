@@ -1,4 +1,4 @@
-# Django settings for project project.
+# Django settings for project shareabouts_client.
 import os.path
 
 HERE = os.path.abspath(os.path.join(os.path.dirname(__file__)))
@@ -109,10 +109,10 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.signed_cookies'
 # session cookie.
 SESSION_COOKIE_NAME = 'sa-client-session'
 
-ROOT_URLCONF = 'project.urls'
+ROOT_URLCONF = 'shareabouts_client.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'project.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
